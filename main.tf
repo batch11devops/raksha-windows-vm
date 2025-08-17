@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "win-rg"
+  name     = "windows-raksha"
   location = "Japan East"
 }
 
@@ -58,4 +58,3 @@ resource "azurerm_windows_virtual_machine" "winvm" {
     version   = "latest"
   }
 }
-
