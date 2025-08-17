@@ -11,7 +11,7 @@ terraform {
   cloud {
     organization = "raksha-terra-org"
     workspaces {
-      name = "win-vm"
+      name = "raksha-windows-vm"
     }
   }
 }
