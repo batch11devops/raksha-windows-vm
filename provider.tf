@@ -6,13 +6,16 @@ terraform {
       version = "~> 4.0"
     }
   }
+
   cloud {
-    organization = "raksha-terra-org"  
-    workspaces { name = "raksha-windows-vm" }     
+    organization = "raksha-terra-org"
+    workspaces {
+      name = "raksha-windows-vm"
+    }
   }
 }
 
 provider "azurerm" {
   features {}
-  
 }
+
