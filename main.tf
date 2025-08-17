@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg" {
   name     = "windows-raksha-new"
-  location = "Japan East"
+  location = "Japan West"
 }
 
 # Virtual Network
