@@ -65,7 +65,7 @@ resource "azurerm_network_interface_security_group_association" "nic_nsg" {
 
 
 resource "azurerm_windows_virtual_machine" "winvm" {
-  name                  = "windows-raksha"
+  name                  = "win-server"
   resource_group_name   = azurerm_resource_group.rg.name
   location              = azurerm_resource_group.rg.location
   size                  = "Standard_D4s_v3" # 4c/16GB
