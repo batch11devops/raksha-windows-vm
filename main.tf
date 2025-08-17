@@ -25,7 +25,7 @@ provider "azurerm" {
 # Resource Group
 resource "azurerm_resource_group" "rg" {
   name     = "win-rg"
-  location = "East US"
+  location = "Japan East"
 }
 
 # Virtual Network
