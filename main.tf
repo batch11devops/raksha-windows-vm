@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "windows-raksha"
+  name     = "windows-raksha-new"
   location = "Japan East"
 }
 
