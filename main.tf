@@ -77,7 +77,7 @@ resource "azurerm_windows_virtual_machine" "winvm" {
   location              = azurerm_resource_group.rg.location
   size                  = "Standard_D4s_v3"
   admin_username        = "azureuser"
-  admin_password        = "Rks@3007"
+  admin_password        = "************"
   network_interface_ids = [azurerm_network_interface.nic.id]
 
   os_disk {
